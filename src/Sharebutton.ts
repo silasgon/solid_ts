@@ -1,4 +1,5 @@
-import EventHandler from "./eventHandler";
+import DOMEventHandler from "./DOMEventHandler";
+import EventHandler from "./EventHandler";
 
 
 export default class ShareButton {

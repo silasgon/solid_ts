@@ -1,14 +1,15 @@
 import AbstractShareButton from "./AbstractSharebutton";
+import EventHandler from "./EventHandler";
 
 
 
 export default class ShareButtonPrint extends AbstractShareButton{
 
-    constructor(clazz: string, url: string) {
-        super(clazz, url);
-
+    constructor(eventHandler: EventHandler, clazz: string) {
+        super(eventHandler, clazz);
     }
-    createLink(): string {
-        throw new Error("Unsupported Method Exception")
+    
+    createAction(){
+        return () => window.print();
     }
 }

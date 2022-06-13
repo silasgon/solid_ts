@@ -1,7 +1,7 @@
 {
   "name": "solid_ts",
   "version": "1.0.0",
-  "description": "",
+  "description": "Material de estudo sobre SOLID com typescript, ministrador pelo professor Rodrigo Branas através do seu canal no youtube. Link nda video aula = https://www.youtube.com/watch?v=899Qa6sQcRc&t=3832s&ab_channel=RodrigoBranas ",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
